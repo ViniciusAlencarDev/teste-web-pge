@@ -1,0 +1,50 @@
+.container {
+    width: 25%;
+    min-height: 120px;
+    background-color: #fff;
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    z-index: 1;
+    border-radius: 5px;
+    border-left: 7px solid #26d467;
+    /* position: relative; */
+}
+
+.boxLink {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxContact {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px;
+    padding: 10px;
+}
+
+.small {
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.large {
+    color: blue;
+    font-size: 8pt;
+}
+
+.boxContact:hover .small,
+.boxContact:hover .large {
+    text-decoration: underline;
+}
+
+.imgLink {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -70%);
+    border-radius: 50%;
+}
